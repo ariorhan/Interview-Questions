@@ -9,12 +9,7 @@ Q3. What are Attributes and how do you use them?
 Each tag has additional attributes that change the way the tag behaves or is displayed. For example, a <input> tag has a type attribute, which you can use to specify whether it’s a text field, checkbox, radio button or one of many more options.
 Attributes are specified directly after the name of the tag, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags. But, they can never be in closing tags.
 Example:
-1
-2
-3
-4
-5
-6	<!-- Text field -->
+<!-- Text field -->
 <input type="text" />
 <!-- Checkbox -->
 <input type="checkbox" />
@@ -28,9 +23,7 @@ Examples of elements that are inline by default: <span>, <b>, <strong>, <a>, <in
 Q5. When are comments used in HTML?
 To understand the code easily, you can add code comments to your HTML document. These are not displayed in the browser, but they help you in leaving notes for yourself and other developers as to what a section of HTML is for. The start of the comment is denoted by <!– and the end is marked by — >. Anything in the middle will be completely ignored, even if it contains valid HTML.
 For example:
-1
-2
-3	<!-- This is a comment! -->
+<!-- This is a comment! -->
 <!-- Comments can span multiple lines too -->
 <!-- This part is ignored in the browser -->
 Q7. How to create a Hyperlink in HTML?
@@ -49,14 +42,7 @@ Q9. What is semantic HTML?
 Semantic HTML is a coding style. It is the use of HTML markup to reinforce the semantics or meaning of the content. For example: In semantic HTML <b> </b> tag is not used for bold statement as well as <i> </i> tag is used for italic. Instead of these we use <strong></strong> and <em></em> tags.
 Q10. How to create a nested webpage in HTML?
 The HTML iframe tag is used to display a nested webpage. In other words, it represents a webpage within a webpage. The HTML <iframe> tag defines an inline frame. For example:
-1
-2
-3
-4
-5
-6
-7
-8	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 <h2>HTML example</h2>
@@ -90,22 +76,18 @@ There are three tags that can be used to separate the texts:
 Q17. What is the difference between DIV and SPAN in HTML?
 The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line,such as inside a paragraph. Whereas, a div or division element is block-line which is equivalent to having a line-break before and after it and used to group larger chunks of code.
 Example:
-1
-2
-3	<div id="HTML">
+<div id="HTML">
 This is <span class="Web Dev">interview</span>
 </div>
 Q18. What is the purpose of using alternative texts in images?
 The purpose of using alternative texts is to define what the image is about. During an image mapping, it can be confusing and difficult to understand what hotspots correspond to a particular link. These alternative texts come in action here and put a description at each link which makes it easy for users to understand the hotspot links easily.
 Q19. How to create a new HTML element?
 You can create new elements for the document in the following way:
-1
-2
-3	<script>
+<script>
 document.createElement﴾"myElement"﴿
 </script>
 It can be also be used in the HTML as:
-1	<myElement>hello edureka!</myElement>
+<myElement>hello edureka!</myElement>
 Q20. Is the <!DOCTYPE html> tag considered as a HTML tag?
 No, the <!DOCTYPE html> declaration is not an HTML tag.
 There are many type of HTML, such as, HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, <!DOCTYPE html> is used to instruct the web browser about the HTML page.
@@ -114,11 +96,11 @@ An URL is encoded to convert non-ASCII characters into a format that can be used
 Q22. What is the use of an iframe tag?
 An iframe is used to display a web page within a web page.
 Syntax:
-1	<iframe src="URL"></iframe>
+<iframe src="URL"></iframe>
 Example:
-1	<iframe src="demo_iframe.html" width="200px" height="200px"></iframe>
+<iframe src="demo_iframe.html" width="200px" height="200px"></iframe>
 Target to a link:
-1	<iframe src="<a href="http://www.edureka.co">http://www.edureka.co</a>" name="iframe_a"></iframe>
+<iframe src="<a href="http://www.edureka.co">http://www.edureka.co</a>" name="iframe_a"></iframe>
 Q23. What are the entities in HTML?
 The HTML character entities are used as a replacement for reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities. These characters are replaced because some characters are reserved in HTML.
 Q24. Can you create a multi-colored text on a web page?
@@ -133,9 +115,7 @@ The span tag is used for following things:
 •	To add background on text
 •	Highlight any color text
 Example:
-1
-2
-3	<span style="color:#ffffff;">
+<span style="color:#ffffff;">
 In this page we use span.
 </span>
 Q27. What is the advantage of collapsing white space?
